@@ -1,0 +1,24 @@
+//- Подключил шаблон с разметкой страницы
+extends pug/doctypes.pug
+
+//- Изменил название страницы
+block doctype
+    //- Наименование главной страницы
+    - var titleName = 'НПФ "Монолит" - официальный сайт';
+    //- Массив с путями к файлам со стилями
+    - var stylePath = [];
+
+//- Вставил блок с будующим контентом
+block content
+        include pug/header.pug
+    main.main
+        section.main-index-section
+            include pug/main-index.pug
+        //-- Секция с информацией о выпускаемой продукции 
+        section.production-section
+            include pug/production.pug
+        section.quality-section
+            include pug/qualiti.pug
+    footer.footer
+        include pug/footer.pug
+            

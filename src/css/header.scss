@@ -1,0 +1,100 @@
+$ff-Oswald: 'Oswald', sans-serif;
+$cl-text: #454549;
+$cl-logoText: #07298D;
+
+.container-header {
+	display: flex;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-right: 2em;
+	padding-left: 2em;
+	justify-content: space-between;
+}
+
+.header-logo {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+
+.header-logo__img {
+	width: 60px;
+}
+
+.header-logo__title {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	align-items: center;
+	font-family: $ff-Oswald;
+	font-weight: 100;
+	color: $cl-logoText;
+}
+
+.header-logo__name-ooo {
+	font-family: $ff-Oswald;
+	font-size: 12px;
+}
+
+.header-logo__name-monolit {
+	font-size: 38px;
+	text-align: center;
+}
+
+.header-tel {
+	font-family: $ff-Oswald;
+	align-items: center;
+}
+
+.header-tel__link {
+	display: block;
+	padding: 15px 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid $cl-logoText;
+	color: $cl-logoText;
+}
+
+.header-blok-shop__link-tel {
+	font-size: 32px;
+}
+
+
+//-- Cтили для планшетов 
+@media only screen and (max-width: 1024px) {
+
+	.header-logo {
+		margin-left: 0;
+		margin-right: 0px;
+		align-items: center;
+		justify-items: center;
+	} 
+
+}
+
+//-- Cтили для смартфонов 
+@media only screen and (max-width: 480px) {
+	.container-header {
+		align-items: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.header-logo {
+		margin-bottom: 0px;
+		align-items: center;
+		justify-items: center;
+	} 
+
+	.header-logo__img {
+		margin: 0;
+	}
+
+	.header-tel__link {
+		margin-right: 0px;
+	}
+
+	.header-tel {
+		display: none;
+	}
+}

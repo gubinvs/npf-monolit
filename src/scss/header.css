@@ -1,0 +1,84 @@
+.container-header {
+  display: flex;
+  padding: 0px 0px 0px 0px;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.header-logo__img {
+  width: 60px;
+}
+
+.header-logo__title {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  color: #07298D;
+}
+
+.header-logo__name-ooo {
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+}
+
+.header-logo__name-monolit {
+  font-size: 38px;
+  text-align: center;
+}
+
+.header-tel {
+  font-family: "Oswald", sans-serif;
+  align-items: center;
+}
+
+.header-tel__link {
+  display: block;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #07298D;
+  color: #07298D;
+}
+
+.header-blok-shop__link-tel {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-logo {
+    margin-left: 0;
+    margin-right: 0px;
+    align-items: center;
+    justify-items: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container-header {
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header-logo {
+    margin-bottom: 0px;
+    align-items: center;
+    justify-items: center;
+  }
+  .header-logo__img {
+    margin: 0;
+  }
+  .header-tel__link {
+    margin-right: 0px;
+  }
+  .header-tel {
+    display: none;
+  }
+}

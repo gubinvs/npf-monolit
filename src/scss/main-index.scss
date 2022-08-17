@@ -1,0 +1,92 @@
+@import 'variables.scss';
+
+
+
+
+.main-index-section {
+  display: flex;
+  height: 700px;
+  background-image: url(../img/index-page-img/fon-main-index_1920.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.main-index-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+
+.main-index-section__title {
+  width: 50%;
+  margin-bottom: 23px;
+  font-family: $ff-Oswald;
+	font-size: 52px;
+	font-weight: 600;
+  color: $cl-title;
+}
+
+.main-index-section__discription {
+  width: 50%;
+	font-size: 24px;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 32px;
+	color: #C4C4C4;
+}
+
+//-- Cтили для планшетов
+@media only screen and (max-width: 1024px) {
+  .main-index-section {
+    height: 500px;
+    background-position: bottom center;
+  }
+
+  .main-index-container {
+    padding-bottom: 10px;
+  }
+
+  .main-index-section__title {
+    width: 60%;
+    margin-bottom: 15px;
+    font-size: 32px;
+    color: $cl-title;
+  }
+
+  .main-index-section__discription {
+    width: 60%;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+}
+
+//-- Cтили для смартфонов 
+@media only screen and (max-width: 420px) {
+  .main-index-section {
+    height: 300px;
+    background-position: bottom center;
+  }
+
+  .main-index-container {
+    padding-bottom: 10px;
+  }
+
+  .main-index-section__title {
+    width: 80%;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  .main-index-section__discription {
+    width: 80%;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+

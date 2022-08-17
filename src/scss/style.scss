@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+// Обнуление
+@import 'normalize.scss';
+// -- Переменные
+@import 'variables.scss';
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: $ff-Mulish;
+	font-weight: 400;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, 
+a, ul, li, figure {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+  	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.flex {
+	display: flex;	
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	background-color: #26344E;
+}
+
+
+.main-beton-section {
+	display: flex;
+	align-items: flex-end;
+	height: 700px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url(../img/beton-page-img/beton-bg-img__1920.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.container {
+		width: 1080px;
+	}
+}
+
+
+@media only screen and (max-width: 1080px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.container {
+		width: 840px;
+	}
+}
+
+@media only screen and (max-width: 840px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 480px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.container {
+		width: 320px;
+	}
+}
+
+
+
+
+//-- Стили для header
+@import 'header.scss';
+
+//-- Стили для main-index-section
+@import 'main-index.scss';
+
+//-- Стили для секции с информацией о выпускаемой продукции
+@import 'production.scss';
+
+//-- Стили для контейнера с информациии о достижении качества
+@import 'qualiti.scss';
+
+//-- Стили для footer
+@import 'footer.scss';
+
+//-- Стили для страниц с сообщением об отправке
+@import 'massege-page.scss';
+
+//-- Стили для страницы о смеси штукатурной
+@import 'plaster-section.scss';
+@import 'drymixes.scss';
+
+//-- Главная секция страницы
+@import 'main-beton.scss';
+
+//-- Секция про рецептуру бетона
+@import 'recept-beton.scss';
+
+//-- Секция c таблицей цен на бетон
+@import 'table-price.scss';
+
+//-- Секция c информацией о доставке
+@import 'delivery-section.scss';
+
+
+//-- Секция c информацией о бетонных изделиях
+@import 'concrete-products.scss';
+
+
+
+
+
+

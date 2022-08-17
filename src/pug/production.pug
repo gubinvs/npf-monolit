@@ -1,0 +1,38 @@
+//-- Секция с информацией о выпускаемой продукции
+.production-section__container.container
+    h2.production-section__title Мы производим:
+    .production-card-block
+        div(style='cursor: pointer;' onClick="window.location='beton.html'").production-card
+            img(
+                class='production-card__img', 
+                src='img/index-page-img/img_card_beton.jpg',
+                alt='На картинке изображен автобетоносмеситель с логотипом компании маонолит'
+            )
+            ul.production-card__list
+                li.production-card__item
+                    .production-card__title Бетон и ЖБИ
+                li.production-card__item
+                    .production-card__text В соответствии с ГОСТ 7473-2010 на цементном вяжущем и различные бетонные изделия.
+        div(id="id").production-card.production-card__sts
+            img(
+                class='production-card__img',
+                src='img/index-page-img/img_card_magcem.jpg',
+                alt='На картинке изображена буровая вышка, в вечернем закате солнца'
+            )
+            ul.production-card__list
+                li.production-card__item
+                    .production-card__title Тампонажные смеси
+                li.production-card__item
+                    .production-card__text Многокомпонентные системы на основе магнезиального вяжущего, с равномерным распределением компонентов во всем объеме смеси.
+        div(style='cursor: pointer;' onClick="window.location='drymixes.html'").production-card
+            img(
+                class='production-card__img',
+                src='img/index-page-img/img_card_cemonol.jpg',
+                alt='На картинке изображен большим планом шпатель со штукатурной смесью в руках строителя, который поправляет смесь другим шпателем'
+            )
+            ul.production-card__list
+                li.production-card__item
+                    .production-card__title Строительные смеси
+                li.production-card__item
+                    .production-card__text Сухие строительные смеси на цементном вяжущем с высокой прочностью и адгезией к широкому спектру материалов.
+                    

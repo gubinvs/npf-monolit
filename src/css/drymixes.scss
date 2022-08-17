@@ -1,0 +1,124 @@
+$ff-Oswald: 'Oswald', sans-serif;
+$cl-text: #454549;
+$cl-logoText: #07298D;
+$cl-title: #ffffff;
+$cl-title__phone: #f28907;
+
+.main-drymixes-section {
+  display: flex;
+  height: 700px;
+  background-image: url(../img/drymixes-page-img/main-drymixes-img__1920.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.main-drymixes-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.drymixes-container__block-title,
+.drymixes-container__block-img  {
+  width: 98%;
+  height: 98%;
+}
+
+.drymixes-container__block-title  {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-drymixes-section__title {
+  margin-bottom: 10px;
+  font-family: $ff-Oswald;
+	font-size: calc(48px + (100vw * 0.01 - 14.40px));
+	font-weight: 600;
+  line-height: 48px;
+  color: $cl-title;
+}
+
+.main-drymixes-section__discription {
+	font-size: calc(24px + (100vw * 0.01 - 14.40px));
+	font-weight: 300;
+	font-style: normal;
+	line-height: 32px;
+	color: #C4C4C4;
+}
+
+.block-img__img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+
+//-- Cтили для планшетов
+@media only screen and (max-width: 1024px) {
+  .main-drymixes-section {
+    height: 500px;
+    background-image: url(../img/drymixes-page-img/main-drymixes-img__1024.jpg);
+    background-position: bottom center;
+  }
+
+  .main-drymixes-container {
+    padding-bottom: 10px;
+  }
+
+  .drymixes-container__block-img  {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .main-drymixes-section__title {
+    margin-bottom: 15px;
+    text-shadow: #000000 1px 0 10px;
+  }
+
+  .main-drymixes-section__discription {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+}
+
+//-- Cтили для смартфонов 
+@media only screen and (max-width: 420px) {
+  .main-drymixes-section {
+    height: 300px;
+    background-image: url(../img/drymixes-page-img/main-drymixes-img__600.jpg);
+    background-position: bottom center;
+  }
+
+  .main-drymixes-container {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  .main-drymixes-section__title {
+    margin-bottom: 5px;
+    font-size: 22px;
+  }
+
+  .main-drymixes-section__discription {
+    font-size: 12px;
+    line-height: 12px;
+    background-color: rgb(70, 70, 70);
+    color: #ffffff;
+  }
+
+  .block-img__img {
+    display: none;
+  }
+
+}
+
+
+//-- Секция о смеси штукатурной
+@import 'plaster-section.scss';
+

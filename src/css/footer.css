@@ -1,0 +1,81 @@
+.footer__container {
+  display: flex;
+  padding: 30px 10px 30px 10px;
+  justify-content: space-between;
+}
+
+.footer-contact__item {
+  margin-bottom: 10px;
+}
+
+.footer-contact__discription {
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.footer-contact__discription_title {
+  font-size: 32px;
+  color: #F0801B;
+}
+
+.footer-contact-link__item {
+  text-align: right;
+}
+
+.footer-contact-link {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.footer-contact-link__item:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.footer-contact-link__item:nth-last-child(2) {
+  margin-bottom: 15%;
+}
+
+.footer-contact-link_tel {
+  font-size: 32px;
+}
+
+.logo_gubinvs_write {
+  width: 1px;
+}
+
+.form-message {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-message__lable {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #F0801B;
+}
+
+.form-message__input,
+.form-message__textarea,
+.form-message__button {
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.form-message__button {
+  cursor: pointer;
+}
+
+.form-message__button:hover {
+  background-color: #F0801B;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer__container {
+    flex-direction: column;
+  }
+  .footer-contact__list:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+}

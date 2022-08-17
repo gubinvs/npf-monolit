@@ -1,0 +1,36 @@
+.main-beton__container {
+  display: flex;
+  align-items: flex-end;
+  justify-items: flex-end;
+}
+
+.block-title__title {
+  margin-bottom: 23px;
+  font-family: "Oswald", sans-serif;
+  font-size: calc(58px + (100vw * 0.01 - 14.40px));
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: #000000 0px 0px 30px;
+}
+
+.block-title__discription {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 32px;
+  color: #000000;
+  text-shadow: #ffffff 0px 0px 30px;
+}
+
+.block-img__img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 650px) {
+  .main-beton__container {
+    flex-direction: column;
+  }
+  .block-img__img {
+    display: none;
+  }
+}

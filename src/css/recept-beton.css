@@ -1,0 +1,82 @@
+.recept-beton {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background-color: #454549;
+}
+
+.recept-beton__block {
+  position: relative;
+  display: flex;
+  height: 110px;
+  margin-bottom: 150px;
+}
+
+.recept-beton__container {
+  display: flex;
+  justify-items: center;
+  padding: 0;
+}
+
+.recept-beton__list {
+  display: flex;
+  position: absolute;
+  top: -50px;
+}
+
+.recept-beton__item {
+  display: flex;
+  padding-left: 20px;
+}
+
+.recept-beton__item:not(:last-of-type) {
+  margin-right: calc(100px + (100vw * 0.01 - 14.40px));
+}
+
+.recept-beton__item_discription {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.recept-number,
+.recept-text {
+  font-family: var(--family-Oswald);
+  color: #fff;
+}
+
+.recept-number {
+  font-size: calc(60px + (100vw * 0.01 - 14.40px));
+}
+
+.recept-text {
+  font-size: calc(26px + (100vw * 0.01 - 14.40px));
+  letter-spacing: 1px;
+}
+
+.recept-beton__img-text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: calc(24px + (100vw * 0.01 - 14.40px));
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1140px) {
+  .recept-beton__item:not(:last-of-type) {
+    margin-right: calc(50px + (100vw * 0.01 - 14.40px));
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .recept-beton__item:not(:last-of-type) {
+    margin-right: calc(20px + (100vw * 0.01 - 14.40px));
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .recept-beton {
+    display: none;
+  }
+}

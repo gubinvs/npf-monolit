@@ -1,0 +1,38 @@
+//- Подключил шаблон с разметкой страницы
+extends pug/doctypes.pug
+
+//- Изменил название страницы
+block doctype
+    //- Наименование главной страницы
+    - var titleName = 'Производство товарного бетона - НПФ "Монолит"';
+    //- Массив с путями к файлам со стилями
+    - var stylePath = [];
+
+//- Вставил блок с будующим контентом
+block content
+    .container
+        include pug/header.pug
+    main.main
+        section.main-beton-section
+            include pug/main-beton.pug
+        section.recept-beton 
+            include pug/recept-beton.pug
+        section.table-price
+            include pug/table-price.pug
+        section.delivery-section
+            include pug/delivery-section.pug
+        section.table-price
+            include pug/table-price_ooo.pug
+        section.concrete-products
+            include pug/concrete-products.pug
+    footer.footer
+        include pug/footer.pug
+        
+    //- //--Библиотека jQuery
+    //- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    //- //--Готовый скрипт корзины
+    //- <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-f0a4ec62.js"></script>
+
+    //- //--Стили элементов для корзины
+    //- <link href="https://lk.easynetshop.ru/frontend/v5/ens-f0a4ec62.css" rel="stylesheet">

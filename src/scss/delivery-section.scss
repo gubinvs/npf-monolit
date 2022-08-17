@@ -1,0 +1,92 @@
+@import 'variables.scss';
+
+.delivery__container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.delivery__title {
+    font-family: $ff-Oswald;
+    font-size: 38px;
+    font-weight: 600;    
+    line-height: 58px;
+}
+
+
+.delivery__discription {
+    position: relative;
+    width: 100%;
+}
+
+.eight-img {
+    position: absolute;
+    top: -100px;
+    right: 100px;
+}
+
+.price-img {
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    width: 200px;
+}
+
+//-- Cтили для планшетов
+@media only screen and (max-width: 1220px) {
+	.delivery__container {
+       padding-left: 20px;
+    }
+}
+
+
+//-- Cтили для смартфонов
+@media only screen and (max-width: 950px) {
+	.eight-img {
+        width: calc(200px + (100vw * 0.01 - 14.40px));
+        right: calc(50px + (100vw * 0.01 - 14.40px));
+    }
+
+    .price-img {
+        right: calc(50px + (100vw * 0.01 - 14.40px));
+        width: calc(100px + (100vw * 0.01 - 14.40px));
+    }
+
+
+}
+
+//-- Cтили для смартфонов
+@media only screen and (max-width: 650px) {
+	.eight-img {
+        width: 100px;
+         top: 30px;
+        right: 10px;
+    }
+
+    .price-img {
+        width: 100px;
+        top: 300px;
+        right: 10px;
+    }
+
+}
+
+//-- Cтили для смартфонов
+@media only screen and (max-width: 710px) {
+    .price-img {
+        top: 350px;
+    }
+
+}
+
+//-- Cтили для смартфонов
+@media only screen and (max-width: 390px) {
+	.eight-img {
+        top: -40px;
+    }
+
+    .price-img {
+        top: 250px;
+    }
+
+}

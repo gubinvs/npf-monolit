@@ -1,0 +1,166 @@
+@import 'variables.scss';
+
+.price__container {
+	padding-left: 30px;
+}
+
+.table-price {
+	padding-top: 0;
+}
+
+.price__title {
+	font-family: $ff-Oswald;
+	margin-bottom: 5px;
+	font-size: 38px;
+}
+
+.price-table__list_mobile {
+	display: none;
+}
+
+.price__discr {
+	display: block;
+	width: 50%;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-size: 10px;
+}
+
+.table-item__title-name {
+	width: 500px;
+	font-weight: 600;
+}
+
+.table-item__title-name,
+.table-item__title-name_filler-gravel {
+	background-color: #EEEDED;
+}
+
+.table-item__title-name_filler-gravel {
+	width: 300px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.table-item__text {
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	border: 1px solid #454549;
+}
+
+.table-item__text-discr {
+	width: 502px;
+}
+
+.table-item__text-price {
+	width: 200px;
+	text-align: center;
+}
+
+.table-item__text-buy {
+	width: 96px;
+}
+
+.table-item__text-discr,
+.table-item__text-price {
+	font-weight: 400;
+	color: #000000;
+}
+
+.table-item__text-buy:hover {
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #F0801B;
+}
+
+//-- Cтили для планшетов
+@media only screen and (max-width: 1150px) {
+	.table-item__title-name {
+		width: 200px;
+		font-weight: 600;
+	}
+
+	.table-item__title-name_filler-gravel {
+		width: 250px;
+	}
+
+	.table-item__text-discr {
+		width: 200px;
+	}
+
+	.table-item__text-price {
+		width: 150px;
+		text-align: center;
+	}
+
+
+}
+
+
+//-- Cтили для смартфонов
+@media only screen and (max-width: 750px) {
+	.table-item__title-name {
+		width: 140px;
+	}
+
+	.table-item__title-name_filler-gravel {
+		width: 178px;
+	}
+
+	.table-item__text-discr {
+		width: 140px;
+	}
+
+	.table-item__text-price {
+		width: 80px;
+		text-align: center;
+	}
+
+}
+
+//-- Cтили для смартфонов
+@media only screen and (max-width: 540px) {
+	.price-table__list{
+		display: none;
+	}
+
+	.price-table__list_mobile {
+		display: flex;
+		flex-direction: column;
+	}
+
+}
+
+//-- Cтили для смартфонов
+@media only screen and (max-width: 360px) {
+
+	.table-item__title-name {
+		width: 140px;
+	}
+
+	.table-item__title-name_filler-gravel {
+		width: 130px;
+	}
+
+	.table-item__text-discr {
+		width: 140px;
+	}
+
+	.table-item__text-price {
+		width: 60px;
+	}
+
+	.table-item__text-buy {
+		width: 69px;
+		font-size: 12px;
+		padding-top: 13px;
+    	padding-bottom: 10px;
+
+	}
+
+}
+
+
+
