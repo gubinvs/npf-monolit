@@ -73,11 +73,14 @@
 .header-navigation__list {
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
 }
 
 .header-navigation__item {
-	margin-right: 20px;
 	color: $color-logoText;
+}
+.header-navigation__item:not(:last-of-type) {
+	margin-right: 20px;
 }
 
 .header-navigation__item_catalog {

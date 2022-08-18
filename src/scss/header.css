@@ -70,11 +70,15 @@
 .header-navigation__list {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .header-navigation__item {
+  color: #07298D;
+}
+
+.header-navigation__item:not(:last-of-type) {
   margin-right: 20px;
-  color: header-navigation__item;
 }
 
 .header-navigation__item_catalog {
