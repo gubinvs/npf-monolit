@@ -15,7 +15,7 @@
         <div class="header-logo"><a class="header-logo__link" href="index.html"><img class="header-logo__img" src="img/logo/logo_monolit.png" alt="Логотип компании научно-производственная фирма Монолит"></a>
           <div class="header-logo__title"><span class="header-logo__name-ooo">Научно-производственная фирма</span><span class="header-logo__name-monolit">МОНОЛИТ                </span></div>
         </div>
-        <div class="header-tel"><a class="header-tel__link" href="tel://+79824814004">+7 (342) 204-06-46</a></div>
+        <div class="header-tel"><a class="header-tel__link" href="tel://+79124854875">+7 (342) 204-06-46</a></div>
       </div>
     </header>
     <main>
@@ -28,35 +28,44 @@
         <div class="production-section__container container">
           <h2 class="production-section__title">Дополнительно производим:</h2>
           <div class="production-card-block">
-            <div class="production-card" style="cursor: pointer;" onClick="window.location='beton.html'"><img class="production-card__img" src="img/index-page-img/img_card_beton.jpg" alt="На картинке изображен автобетоносмеситель с логотипом компании маонолит">
+            <div class="production-card"><img class="production-card__img" src="img/index-page-img/img_card_beton.jpg" alt="Автобетоносмеситель с логотипом компании монолит">
               <ul class="production-card__list">
                 <li class="production-card__item">
                   <div class="production-card__title">Товарный бетон</div>
                 </li>
-                <li class="production-card__item">
+                <li class="production-card__item mb-30">
                   <div class="production-card__text">Представлены марки и цены на бетон производства НПФ Монолит, с возможностью выбрать и заказать доставку</div>
                 </li>
               </ul>
+              <div class="production-card__button-block">
+                <button onClick="window.location='beton.html'">Подробнее</button>
+              </div>
             </div>
-            <div class="production-card" style="cursor: pointer;" onClick="window.location='beton.html'"><img class="production-card__img" src="../img/zhbi-img/zhbi_title_img.jpg" alt="На картинке изображен автобетоносмеситель с логотипом компании маонолит">
+            <div class="production-card"><img class="production-card__img" src="../img/zhbi-img/zhbi_title_img.jpg" alt="Разные виды бетонных изделий">
               <ul class="production-card__list">
                 <li class="production-card__item">
-                  <div class="production-card__title">Железобетонные изделия</div>
+                  <div class="production-card__title">Бетонные изделия</div>
                 </li>
-                <li class="production-card__item">
-                  <div class="production-card__text">Представлены в виде электронного каталога бетонные и железобетонные издели производства НПФ Монолит.</div>
+                <li class="production-card__item mb-30">
+                  <div class="production-card__text">Представлены в виде электронного каталога бетонные и железобетонные изделия производства НПФ Монолит. Можно ознакомиться и заказать. </div>
                 </li>
               </ul>
+              <div class="production-card__button-block">
+                <button onClick="window.location='zhbiizdeliy.html'">Подробнее</button>
+              </div>
             </div>
-            <div class="production-card" style="cursor: pointer;" onClick="window.location='drymixes.html'"><img class="production-card__img" src="img/index-page-img/img_card_cemonol.jpg" alt="На картинке изображен большим планом шпатель со штукатурной смесью в руках строителя, который поправляет смесь другим шпателем">
+            <div class="production-card"><img class="production-card__img" src="img/index-page-img/img_card_cemonol.jpg" alt="большим планом шпатель со штукатурной смесью в руках строителя, который поправляет смесь другим шпателем">
               <ul class="production-card__list">
                 <li class="production-card__item">
-                  <div class="production-card__title">Сухие строительные смеси</div>
+                  <div class="production-card__title">Строительные смеси</div>
                 </li>
-                <li class="production-card__item">
+                <li class="production-card__item mb-30">
                   <div class="production-card__text">Сухие строительные смеси на цементном вяжущем с высокой прочностью и адгезией к широкому спектру материалов.</div>
                 </li>
               </ul>
+              <div class="production-card__button-block">
+                <button onClick="window.location='drymixes.html'">Подробнее</button>
+              </div>
             </div>
           </div>
         </div>
@@ -118,12 +127,12 @@
         </ul>
         <ul class="footer-contact-link__list">
           <li class="footer-contact-link__item"><a class="footer-contact-link" href="mailto:office@npf-monolit.ru">office@npf-monolit.ru</a></li>
-          <li class="footer-contact-link__item"><a class="footer-contact-link footer-contact-link_tel" href="tel://+79824814004">tel: +7 (342) 204-06-46 </a></li>
+          <li class="footer-contact-link__item"><a class="footer-contact-link footer-contact-link_tel" href="tel://+79124854875">tel: +7 (342) 204-06-46 </a></li>
           <li class="footer-contact-link__item">
             <form class="form-message" method="post" action="php/send_monolit.php">
               <input class="form-message__input" type="email" id="mail" placeholder="Email:" name="email">
               <textarea class="form-message__textarea" name="message" cols="15" rows="3" placeholder="Ваше сообщение ..."></textarea>
-              <button class="form-message__button" type="submit">Отправить</button>
+              <button class="footer__button" type="submit">Отправить</button>
               <input type="hidden" name="act" value="order">
             </form>
           </li>

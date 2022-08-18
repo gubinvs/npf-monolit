@@ -21,6 +21,10 @@
   border: 1px solid #454549;
 }
 
+.production-card__button-block {
+  padding-left: 38px;
+}
+
 .production-card__sts {
   position: relative;
 }
@@ -85,7 +89,7 @@
     padding-right: 5px;
   }
   .production-card {
-    width: calc((100% - 23px) / 2);
+    width: 380px;
   }
   .production-card-block .production-card:not(:last-of-type) {
     margin-right: 0px;

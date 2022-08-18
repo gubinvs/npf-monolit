@@ -1,0 +1,20 @@
+//- Подключил шаблон с разметкой страницы
+extends pug/doctypes.pug
+
+//- Изменил название страницы
+block doctype
+    //- Описание страницы в head discription
+    - var contentDiscription = 'Каталог железобетонной продукции производства Научно-производственной фирмы Монолит г. Пермь, с которой можно ознакомиться на сайте, купить и заказать доставку';
+    //- Наименование главной страницы
+    - var titleName = 'Железобетонные изделия НПФ "Монолит"';
+    //- Массив с путями к файлам со стилями
+    - var stylePath = [];
+
+//- Вставил блок с будующим контентом
+block content
+    include pug/header__catolog.pug
+    main
+        section.concrete-products
+            include pug/concrete-products.pug
+    footer.footer
+        include pug/footer.pug

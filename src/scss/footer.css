@@ -64,7 +64,8 @@
   border: 0px;
 }
 
-.form-message__button {
+.footer__button {
+  width: 100%;
   cursor: pointer;
   border: 1px solid #ffffff;
   color: #ffffff;

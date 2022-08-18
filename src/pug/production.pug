@@ -2,49 +2,46 @@
 .production-section__container.container
     h2.production-section__title Дополнительно производим:
     .production-card-block
-        div(style='cursor: pointer;' onClick="window.location='beton.html'").production-card
+        .production-card
             img(
                 class='production-card__img', 
                 src='img/index-page-img/img_card_beton.jpg',
-                alt='На картинке изображен автобетоносмеситель с логотипом компании маонолит'
+                alt='Автобетоносмеситель с логотипом компании монолит'
             )
             ul.production-card__list
                 li.production-card__item
                     .production-card__title Товарный бетон
-                li.production-card__item
+                li.production-card__item.mb-30
                     .production-card__text Представлены марки и цены на бетон производства НПФ Монолит, с возможностью выбрать и заказать доставку
-        div(style='cursor: pointer;' onClick="window.location='beton.html'").production-card
+            .production-card__button-block
+                button(onClick="window.location='beton.html'") Подробнее
+            
+        
+        .production-card
             img(
                 class='production-card__img', 
                 src='../img/zhbi-img/zhbi_title_img.jpg',
-                alt='На картинке изображен автобетоносмеситель с логотипом компании маонолит'
+                alt='Разные виды бетонных изделий'
             )
             ul.production-card__list
                 li.production-card__item
-                    .production-card__title Железобетонные изделия
-                li.production-card__item
-                    .production-card__text Представлены в виде электронного каталога бетонные и железобетонные издели производства НПФ Монолит.
+                    .production-card__title Бетонные изделия
+                li.production-card__item.mb-30
+                    .production-card__text Представлены в виде электронного каталога бетонные и железобетонные изделия производства НПФ Монолит. Можно ознакомиться и заказать. 
+            .production-card__button-block
+                button(onClick="window.location='zhbiizdeliy.html'") Подробнее
         
-        //- div(id="id").production-card.production-card__sts
-        //-     img(
-        //-         class='production-card__img',
-        //-         src='img/index-page-img/img_card_magcem.jpg',
-        //-         alt='На картинке изображена буровая вышка, в вечернем закате солнца'
-        //-     )
-        //-     ul.production-card__list
-        //-         li.production-card__item
-        //-             .production-card__title Тампонажные смеси
-        //-         li.production-card__item
-        //-             .production-card__text Многокомпонентные системы на основе магнезиального вяжущего, с равномерным распределением компонентов во всем объеме смеси.
-        div(style='cursor: pointer;' onClick="window.location='drymixes.html'").production-card
+        .production-card
             img(
                 class='production-card__img',
                 src='img/index-page-img/img_card_cemonol.jpg',
-                alt='На картинке изображен большим планом шпатель со штукатурной смесью в руках строителя, который поправляет смесь другим шпателем'
+                alt='большим планом шпатель со штукатурной смесью в руках строителя, который поправляет смесь другим шпателем'
             )
             ul.production-card__list
                 li.production-card__item
-                    .production-card__title Сухие строительные смеси
-                li.production-card__item
+                    .production-card__title Строительные смеси
+                li.production-card__item.mb-30
                     .production-card__text Сухие строительные смеси на цементном вяжущем с высокой прочностью и адгезией к широкому спектру материалов.
+            .production-card__button-block
+                button(onClick="window.location='drymixes.html'") Подробнее
     

@@ -387,8 +387,50 @@ template {
   display: none;
 }
 
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 html {
   box-sizing: border-box;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
 }
 
 *,
@@ -457,6 +499,19 @@ section {
   background-position: bottom;
 }
 
+button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #454549;
+  border-radius: 5px;
+  color: #454549;
+}
+
+button:hover {
+  background-color: #f28907;
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 1200px) {
   .container {
     width: 1080px;
@@ -497,6 +552,14 @@ section {
   .container {
     width: 320px;
   }
+}
+
+.header__catalog {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #26344E;
 }
 
 .container-header {
@@ -685,6 +748,10 @@ section {
   border: 1px solid #454549;
 }
 
+.production-card__button-block {
+  padding-left: 38px;
+}
+
 .production-card__sts {
   position: relative;
 }
@@ -749,7 +816,7 @@ section {
     padding-right: 5px;
   }
   .production-card {
-    width: calc((100% - 23px) / 2);
+    width: 380px;
   }
   .production-card-block .production-card:not(:last-of-type) {
     margin-right: 0px;
@@ -929,7 +996,8 @@ section {
   border: 0px;
 }
 
-.form-message__button {
+.footer__button {
+  width: 100%;
   cursor: pointer;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -1613,11 +1681,9 @@ section {
 
 .concrete-products__name-section {
   display: block;
+  padding-top: 100px;
   margin-bottom: 30px;
   width: 50%;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
   font-size: 40px;
   font-weight: 800;
 }

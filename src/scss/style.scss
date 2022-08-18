@@ -4,11 +4,17 @@
 @import 'normalize.scss';
 // -- Переменные
 @import 'variables.scss';
+@import 'margin.scss';
 
 html {
 	box-sizing: border-box;
 }
 
+h2 {
+	font-family: $font-family__title;
+	font-weight: 400;
+	font-size: 32px;
+}
 
 
 *,
@@ -63,9 +69,8 @@ section {
 }
 
 .footer {
-	background-color: #26344E;
+	background-color: $bg-color-footer;
 }
-
 
 .main-beton-section {
 	display: flex;
@@ -77,6 +82,21 @@ section {
 	background-repeat: no-repeat;
 	background-position: bottom;
 }
+
+button {
+	width: 150px;
+	height: 40px;
+	border: 1px solid $color-text;
+	border-radius: 5px;
+	color: $color-text;
+}
+
+button:hover {
+	background-color: $color-title__phone;
+	color: $color-title;
+}
+
+
 
 
 @media only screen and (max-width: 1200px) {
@@ -162,6 +182,15 @@ section {
 
 //-- Секция c информацией о бетонных изделиях
 @import 'concrete-products.scss';
+
+
+
+
+
+
+
+
+
 
 
 
