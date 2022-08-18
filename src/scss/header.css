@@ -16,6 +16,7 @@
   display: flex;
   padding: 0px 0px 0px 0px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-logo {
@@ -73,7 +74,7 @@
 
 .header-navigation__item {
   margin-right: 20px;
-  color: #26344E;
+  color: header-navigation__item;
 }
 
 .header-navigation__item_catalog {
@@ -82,8 +83,9 @@
 
 .header-tel {
   width: 300px;
-  font-family: "Oswald", sans-serif;
   align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
 }
 
 .header-tel__link {

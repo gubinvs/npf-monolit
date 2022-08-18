@@ -77,7 +77,7 @@
 
 .header-navigation__item {
 	margin-right: 20px;
-	color: $bg-color-footer;
+	color: $color-logoText;
 }
 
 .header-navigation__item_catalog {
@@ -87,8 +87,10 @@
 
 .header-tel {
 	width: 300px;
-	font-family: $font-family__title;
 	align-items: center;
+	font-family: $font-family__title;
+	font-weight: 100;
+	
 }
 
 .header-tel__link {

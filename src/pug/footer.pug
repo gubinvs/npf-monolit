@@ -16,18 +16,25 @@ div.container.footer__container.flex
         li.footer-contact__item
             p.footer-contact__discription Адрес местонахождения: <br> 614023, г. Пермь, ул. Промучасток, 40
     ul.footer-contact-link__list
-        li.footer-contact-link__item
+        li.footer-contact-link__item.mb-10
             a(href='mailto:office@npf-monolit.ru').footer-contact-link office@npf-monolit.ru
-        li.footer-contact-link__item
+        li.footer-contact-link__item.mb-10
             a(href='tel://+79124854875').footer-contact-link.footer-contact-link_tel tel: +7 (342) 204-06-46 
-        li.footer-contact-link__item
+        li.footer-contact-link__item.mb-30
             form(method="post" action="php/send_monolit.php").form-message
                 input(type="email", id='mail', placeholder="Email:", name="email").form-message__input
                 textarea(name="message", cols="15", rows="3", placeholder="Ваше сообщение ...").form-message__textarea
                 button(type="submit").footer__button Отправить
                 input(type="hidden" name="act" value="order")
+        li.footer-contact-link__item 
+            .copyright-block_copyright.mb-5 &copy; Оформление сайта, 2019-2022 
+            a(href="../pp-page.html").copyright-block_person Политика в отношении обработки персональных данных
+
         li.footer-contact-link__item
             a(
-                href='http://gubinvs.ru/webdevelopment.html',
+                href='http://gubinvs.ru/',
                 target='blank'
             ).footer-contact-link  
+
+            
+        

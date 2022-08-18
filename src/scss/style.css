@@ -630,7 +630,7 @@ button:hover {
 
 .header-navigation__item {
   margin-right: 20px;
-  color: #26344E;
+  color: #07298D;
 }
 
 .header-navigation__item_catalog {
@@ -639,8 +639,9 @@ button:hover {
 
 .header-tel {
   width: 300px;
-  font-family: "Oswald", sans-serif;
   align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
 }
 
 .header-tel__link {
@@ -1004,14 +1005,6 @@ button:hover {
   color: #ffffff;
 }
 
-.footer-contact-link__item:not(:last-of-type) {
-  margin-bottom: 10px;
-}
-
-.footer-contact-link__item:nth-last-child(2) {
-  margin-bottom: 15%;
-}
-
 .footer-contact-link_tel {
   font-size: 32px;
 }
@@ -1049,6 +1042,18 @@ button:hover {
 
 .form-message__button:hover {
   background-color: #f28907;
+}
+
+.copyright-block_copyright,
+.copyright-block_person {
+  display: block;
+  width: 60%;
+  text-align: left;
+  color: #ffffff;
+}
+
+.copyright-block_person:hover {
+  color: #f28907;
 }
 
 @media only screen and (max-width: 1024px) {

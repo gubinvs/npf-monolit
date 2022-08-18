@@ -31,14 +31,6 @@
 	color: $color-title;
 }
 
-.footer-contact-link__item:not(:last-of-type) {
-	margin-bottom: 10px;
-}
-
-.footer-contact-link__item:nth-last-child(2){
-	margin-bottom: 15%;
-}
-
 .footer-contact-link_tel {
 	font-size: 32px;
 }
@@ -76,6 +68,19 @@
 
 .form-message__button:hover {
 	background-color: $color-title__phone;
+}
+
+.copyright-block_copyright,
+.copyright-block_person {
+	display: block;
+	width: 60%;
+	text-align: left;
+	color: $color-title;
+}
+
+.copyright-block_person:hover {
+	color: $color-title__phone;
+
 }
 
 //-- Cтили для планшетов
