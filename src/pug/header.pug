@@ -2,7 +2,7 @@
 header.header
     .container.container-header
         //-- Блок header с логотипом компании
-        div.header-logo
+        .header-logo
             //-- Картинка логотипа
             a(href='index.html').header-logo__link
                 img(
@@ -14,7 +14,14 @@ header.header
                 span.header-logo__name-ooo Научно-производственная фирма
                 span.header-logo__name-monolit МОНОЛИТ                
             //-- Правый блок header с кнопкой Shop и телефоном
-        div.header-tel
+        nav.header-navigation.header-navigation__catalog 
+            ul.header-navigation__list
+                li.header-navigation__item.header-navigation__item_catalog Главная |
+                li.header-navigation__item.header-navigation__item_catalog Товарный бетон |
+                li.header-navigation__item.header-navigation__item_catalog Бетонные изделия |
+                li.header-navigation__item.header-navigation__item_catalog Сухие смеси |
+                
+        .header-tel
             a(
                 href='tel://+79124854875'
             ).header-tel__link +7 (342) 204-06-46
