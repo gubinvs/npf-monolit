@@ -1,6 +1,6 @@
 //-- Секция с информацией о выпускаемой продукции
 .production-section__container.container
-    h2.production-section__title Мы производим:
+    h2.production-section__title Дополнительно производим:
     .production-card-block
         div(style='cursor: pointer;' onClick="window.location='beton.html'").production-card
             img(
@@ -10,20 +10,32 @@
             )
             ul.production-card__list
                 li.production-card__item
-                    .production-card__title Бетон и ЖБИ
+                    .production-card__title Товарный бетон
                 li.production-card__item
-                    .production-card__text В соответствии с ГОСТ 7473-2010 на цементном вяжущем и различные бетонные изделия.
-        div(id="id").production-card.production-card__sts
+                    .production-card__text Представлены марки и цены на бетон производства НПФ Монолит, с возможностью выбрать и заказать доставку
+        div(style='cursor: pointer;' onClick="window.location='beton.html'").production-card
             img(
-                class='production-card__img',
-                src='img/index-page-img/img_card_magcem.jpg',
-                alt='На картинке изображена буровая вышка, в вечернем закате солнца'
+                class='production-card__img', 
+                src='../img/zhbi-img/zhbi_title_img.jpg',
+                alt='На картинке изображен автобетоносмеситель с логотипом компании маонолит'
             )
             ul.production-card__list
                 li.production-card__item
-                    .production-card__title Тампонажные смеси
+                    .production-card__title Железобетонные изделия
                 li.production-card__item
-                    .production-card__text Многокомпонентные системы на основе магнезиального вяжущего, с равномерным распределением компонентов во всем объеме смеси.
+                    .production-card__text Представлены в виде электронного каталога бетонные и железобетонные издели производства НПФ Монолит.
+        
+        //- div(id="id").production-card.production-card__sts
+        //-     img(
+        //-         class='production-card__img',
+        //-         src='img/index-page-img/img_card_magcem.jpg',
+        //-         alt='На картинке изображена буровая вышка, в вечернем закате солнца'
+        //-     )
+        //-     ul.production-card__list
+        //-         li.production-card__item
+        //-             .production-card__title Тампонажные смеси
+        //-         li.production-card__item
+        //-             .production-card__text Многокомпонентные системы на основе магнезиального вяжущего, с равномерным распределением компонентов во всем объеме смеси.
         div(style='cursor: pointer;' onClick="window.location='drymixes.html'").production-card
             img(
                 class='production-card__img',
@@ -32,7 +44,7 @@
             )
             ul.production-card__list
                 li.production-card__item
-                    .production-card__title Строительные смеси
+                    .production-card__title Сухие строительные смеси
                 li.production-card__item
                     .production-card__text Сухие строительные смеси на цементном вяжущем с высокой прочностью и адгезией к широкому спектру материалов.
-                    
+    

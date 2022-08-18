@@ -43,7 +43,7 @@
 .cp-card-product__name,
 .cp-card-product__price {
     padding-left: 20px;
-    font-family: $ff-Oswald;
+    font-family: $font-family__title;
     font-size: 36px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .cp-card-product__price {
-    color: $cl-title__phone;
+    color: $color-title__phone;
     margin-bottom: 20px;
 }
 

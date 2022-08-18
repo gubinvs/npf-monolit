@@ -14,12 +14,12 @@
 .footer-contact__discription {
 	font-size: 18px;
 	line-height: 30px;
-	color: $text-color;
+	color: $color-title;
 }
 
 .footer-contact__discription_title {
 	font-size: 32px;
-	color: $hover-button_color;
+	color: $color-title;
 }
 
 .footer-contact-link__item {
@@ -28,7 +28,7 @@
 
 .footer-contact-link {
 	font-size: 24px;
-	color: $text-color;
+	color: $color-title;
 }
 
 .footer-contact-link__item:not(:last-of-type) {
@@ -55,7 +55,7 @@
 .form-message__lable {
 	margin-bottom: 10px;
 	font-size: 24px;
-	color: $hover-button_color;
+	color: $color-title;
 }
 
 .form-message__input,
@@ -69,10 +69,12 @@
 
 .form-message__button {
 	cursor: pointer;
+	border: 1px solid $color-title;
+	color: $color-title;
 }
 
 .form-message__button:hover {
-	background-color: $hover-button_color;
+	background-color: $color-title__phone;
 }
 
 //-- Cтили для планшетов

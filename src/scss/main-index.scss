@@ -24,10 +24,10 @@
 .main-index-section__title {
   width: 50%;
   margin-bottom: 23px;
-  font-family: $ff-Oswald;
+  font-family: $font-family__title;
 	font-size: 52px;
 	font-weight: 600;
-  color: $cl-title;
+  color: $color-title;
 }
 
 .main-index-section__discription {
@@ -54,7 +54,7 @@
     width: 60%;
     margin-bottom: 15px;
     font-size: 32px;
-    color: $cl-title;
+    color: $color-title;
   }
 
   .main-index-section__discription {

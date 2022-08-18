@@ -21,13 +21,13 @@
 	flex-direction: column;
 	width: 150px;
 	align-items: center;
-	font-family: $ff-Oswald;
+	font-family: $font-family__title;
 	font-weight: 100;
-	color: $cl-logoText;
+	color: $color-logoText;
 }
 
 .header-logo__name-ooo {
-	font-family: $ff-Oswald;
+	font-family: $font-family__title;
 	font-size: 12px;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .header-tel {
-	font-family: $ff-Oswald;
+	font-family: $font-family__title;
 	align-items: center;
 }
 
@@ -46,8 +46,8 @@
 	padding: 15px 20px;
 	font-size: 18px;
 	border-radius: 10px;
-	border: 1px solid $cl-logoText;
-	color: $cl-logoText;
+	border: 1px solid $font-family__title;
+	color: $color-logoText;
 }
 
 .header-blok-shop__link-tel {

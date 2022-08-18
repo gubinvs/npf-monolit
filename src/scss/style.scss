@@ -9,6 +9,8 @@ html {
 	box-sizing: border-box;
 }
 
+
+
 *,
 *::before,
 *::after {
@@ -16,7 +18,7 @@ html {
 }
 
 body {
-	font-family: $ff-Mulish;
+	font-family: $font-family__discr;
 	font-weight: 400;
     background-color: #ffffff;
 }
@@ -160,6 +162,12 @@ section {
 
 //-- Секция c информацией о бетонных изделиях
 @import 'concrete-products.scss';
+
+
+
+
+
+
 
 
 
