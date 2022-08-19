@@ -562,6 +562,7 @@ button:hover {
   padding-bottom: 10px;
   height: 84px;
   background-color: #ffffff;
+  z-index: 100;
 }
 
 .header__catalog {
@@ -847,7 +848,7 @@ button:hover {
 .production-card:hover:not(#id) {
   background-color: #ffffff;
   border-color: #f28907;
-  box-shadow: 1px 1px #f28907;
+  box-shadow: #f28907;
 }
 
 .production-card__link:hover {

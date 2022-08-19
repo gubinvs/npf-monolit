@@ -77,7 +77,7 @@
 .production-card:hover:not(#id) {
 	background-color: $color-title;
 	border-color: $color-title__phone;
-	box-shadow: 1px 1px $color-title__phone;
+	box-shadow: $color-title__phone;
 }
 
 .production-card__link:hover {
