@@ -635,6 +635,14 @@ button:hover {
   color: #ffffff;
 }
 
+.hn-link_catalog {
+  color: #ffffff;
+}
+
+.hn-link:hover {
+  color: #f28907;
+}
+
 .header-tel {
   width: 300px;
   align-items: center;
