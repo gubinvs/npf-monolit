@@ -1086,6 +1086,15 @@ button:hover {
   color: #f28907;
 }
 
+.logo_brainstorm {
+  width: 50px;
+  height: 50px;
+}
+
+.fcl__item_brainstorm {
+  display: flex;
+}
+
 @media only screen and (max-width: 1024px) {
   .footer__container {
     flex-direction: column;

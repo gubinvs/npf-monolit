@@ -26,15 +26,13 @@ div.container.footer__container.flex
                 textarea(name="message", cols="15", rows="3", placeholder="Ваше сообщение ...").form-message__textarea
                 button(type="submit").footer__button Отправить
                 input(type="hidden" name="act" value="order")
-        li.footer-contact-link__item 
-            .copyright-block_copyright.mb-5 &copy; Оформление сайта, 2019-2022 
-            a(href="../pp-page.html").copyright-block_person Политика в отношении обработки персональных данных
-
-        li.footer-contact-link__item
-            a(
-                href='http://gubinvs.ru/',
-                target='blank'
-            ).footer-contact-link  
+        li.footer-contact-link__item.fcl__item_brainstorm
+            .fcl__item_copyright
+                .copyright-block_copyright.mb-5 &copy; Оформление сайта, 2019-2022 
+                a(href="../pp-page.html").copyright-block_person Политика в отношении обработки персональных данных
+            .fcl__item_brainstorm
+                a(href='https://pro-brainstorm.ru/',target='blank').footer-contact-link
+                    img(src="../img/logo/logo_brainstorm_wite.svg", alt="Логотип студии разработчика сайта").logo_brainstorm
 
             
         
