@@ -68,7 +68,7 @@ button.cp-cp__button_bay {
 
 
 //-- Cтили для планшетов
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .concrete-products__card-product:not(:nth-child(4)) {
         margin-right: 0;
     }
@@ -78,17 +78,31 @@ button.cp-cp__button_bay {
     }
 
     .concrete-products__card-product:not(:nth-child(3)) {
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .concrete-products__card-product:nth-child(-n+3) {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
-
-
 }
 
-@media only screen and (max-width: 960px) {}
+@media only screen and (max-width: 960px) {
+    .concrete-products__card-product:not(:nth-child(3)) {
+        margin-right: 0px;
+    }
+
+    .concrete-products__card-product:nth-child(-n+3) {
+        margin-bottom: 0px;
+    }
+
+    .concrete-products__card-product:not(:nth-child(2)) {
+        margin-right: 10px;
+    }
+
+    .concrete-products__card-product:nth-child(-n+4) {
+        margin-bottom: 10px;
+    }
+}
 
 //-- Cтили для смартфонов 
 @media only screen and (max-width: 549px) {

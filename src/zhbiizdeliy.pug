@@ -6,7 +6,7 @@ block doctype
     //- Описание страницы в head discription
     - var contentDiscription = 'Каталог железобетонной продукции производства Научно-производственной фирмы Монолит г. Пермь, с которой можно ознакомиться на сайте, купить и заказать доставку';
     //- Наименование главной страницы
-    - var titleName = 'Железобетонные изделия НПФ "Монолит"';
+    - var titleName = 'Железобетонные изделия производства НПФ "Монолит"';
     //- Массив с путями к файлам со стилями
     - var stylePath = [];
 
@@ -18,3 +18,12 @@ block content
             include pug/concrete-products.pug
     footer.footer
         include pug/footer.pug
+    
+    //--Библиотека jQuery
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    //--Готовый скрипт корзины
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-f0a4ec62.js"></script>
+
+    //--Стили элементов для корзины
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-f0a4ec62.css" rel="stylesheet">

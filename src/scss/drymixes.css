@@ -22,6 +22,10 @@
   height: 98%;
 }
 
+.drymixes-container__block-img {
+  padding-top: 50px;
+}
+
 .drymixes-container__block-title {
   display: flex;
   flex-direction: column;
